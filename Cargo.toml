@@ -1,0 +1,16 @@
+[package]
+name = "ball-catch"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+macroquad = "0.3"
+
+
+
+#TODO:
+# fix update_ball function to have localized lifetime time
+# create spawn ball function that can be called after paddle hits a ball
+# add check for ball and paddle positions when ball y = 0
